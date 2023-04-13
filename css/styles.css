@@ -442,7 +442,7 @@ h2 {
   padding-bottom: 0px;
 }
 
-.client-h2 {
+.clients-h2 {
   margin-bottom: 50px;
 }
 
@@ -452,3 +452,26 @@ h2 {
   gap: 30px;
   justify-content: space-between;
 }
+
+.ikona{
+  Width: 170px;
+Height: 92px;
+fill: #afb1b8;
+outline: 1px auto #afb1b8;
+}
+
+.ikona:hover{
+fill: #2196f3;
+outline-color: #2196f3;
+}
+
+.main-ikon{
+fill: #afb1b8;
+  Width: 10px;
+Height: 16px;
+padding: 0px;
+}
+.main-ikon:hover{
+  fill: #2196f3;
+}
+
