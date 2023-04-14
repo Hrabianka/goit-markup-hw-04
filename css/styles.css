@@ -89,6 +89,7 @@ h2 {
 .telephone:hover,
 .telephone:focus {
   color: var(--blue-color);
+  fill: #2196f3;
 }
 .logo-footer:hover,
 .logo-footer:focus {
@@ -467,20 +468,15 @@ h2 {
   outline-color: #2196f3;
 }
 
-.main-ikon {
-  fill: #afb1b8;
-  width: 10px;
-  height: 16px;
+.main-ikon-smartphone {
+  fill: currentColor;
+
   padding: 0px;
-}
-.main-ikon:hover {
-  fill: #2196f3;
 }
 
 .main-ikon-envelope {
-  fill: #afb1b8;
-  width: 16px;
-  height: 12px;
+  fill: currentColor;
+
   padding: 0px;
 }
 /*
