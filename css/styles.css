@@ -84,6 +84,7 @@ h2 {
 .e-mail:hover,
 .e-mail:focus {
   color: var(--blue-color);
+  fill: #2196f3;
 }
 .telephone:hover,
 .telephone:focus {
@@ -143,7 +144,8 @@ h2 {
 }
 
 .main-div {
-  background-image: url('../images/background.jpg');
+  background: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/background.jpg');
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
@@ -453,25 +455,44 @@ h2 {
   justify-content: space-between;
 }
 
-.ikona{
-  Width: 170px;
-Height: 92px;
-fill: #afb1b8;
-outline: 1px auto #afb1b8;
+.ikona {
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
+  outline: 1px auto #afb1b8;
 }
 
-.ikona:hover{
-fill: #2196f3;
-outline-color: #2196f3;
+.ikona:hover {
+  fill: #2196f3;
+  outline-color: #2196f3;
 }
 
-.main-ikon{
-fill: #afb1b8;
-  Width: 10px;
-Height: 16px;
-padding: 0px;
+.main-ikon {
+  fill: #afb1b8;
+  width: 10px;
+  height: 16px;
+  padding: 0px;
 }
-.main-ikon:hover{
+.main-ikon:hover {
   fill: #2196f3;
 }
 
+.main-ikon-envelope {
+  fill: #afb1b8;
+  width: 16px;
+  height: 12px;
+  padding: 0px;
+}
+/*
+.main-ikon-envelope:hover{
+   fill: #2196f3;
+}*/
+
+.icon-lorem {
+  width: 270px;
+  height: 120px;
+  outline: 1px dashed #f5f4fa;
+  background-color: #f5f4fa;
+  padding-bottom: 30px;
+  
+}
