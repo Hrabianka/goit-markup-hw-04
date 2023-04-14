@@ -498,3 +498,22 @@ h2 {
   padding-left: 100px;
   margin-bottom: 30px;
 }
+
+.team-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 16px;
+}
+
+.li-team-icons {
+  height: 44px;
+  width: 44px;
+}
+
+.team-icons:hover {
+  fill: #2196f3;
+}
