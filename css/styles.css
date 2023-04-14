@@ -493,6 +493,8 @@ h2 {
   height: 120px;
   outline: 1px dashed #f5f4fa;
   background-color: #f5f4fa;
-  padding-bottom: 30px;
-  
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 100px;
+  margin-bottom: 30px;
 }
