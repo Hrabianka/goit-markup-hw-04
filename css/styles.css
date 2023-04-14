@@ -513,3 +513,30 @@ h2 {
 .team-icons:hover {
   fill: #2196f3;
 }
+
+.flex-footer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 70px;
+}
+
+.footer-social-ul {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-p {
+  font-weight: 700;
+  line-height: 16px;
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.social-icon:hover {
+  fill: var(--blue-color);
+  /*background-color: rgba(255, 255, 255, 0.1);*/
+}
+
+.circle-social-icon:hover {
+  fill: #2196f3;
+}
