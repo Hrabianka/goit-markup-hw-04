@@ -532,11 +532,22 @@ h2 {
   color: var(--white-color);
 }
 
-.social-icon:hover {
-  fill: var(--blue-color);
-  /*background-color: rgba(255, 255, 255, 0.1);*/
+.team-social-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 16px;
+}
+.social-icon use {
+  fill: #afb1b8;
 }
 
-.circle-social-icon:hover {
+.social-icon:hover use {
+  fill: #eeeeee;
+}
+.social-icon:hover .circle-social-icon {
   fill: #2196f3;
 }
