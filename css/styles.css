@@ -109,7 +109,9 @@ h2 {
 .portfolio-button:focus {
   background: var(--blue-color);
   color: var(--white-color);
-  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 .main-header {
@@ -344,12 +346,14 @@ h2 {
 
 .team-li {
   flex-basis: ((100%-90px)/4);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 .team-figure {
   background: var(--white-color);
   margin: 0px;
-  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
 }
 
 /*
@@ -392,7 +396,9 @@ h2 {
 }
 
 .portfolio-div:hover {
-  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .job-position {
@@ -442,8 +448,7 @@ h2 {
 }
 .navigation {
   display: flex;
-
-  margin-right: 371px;
+  margin-right: 351px;
   margin-left: 93px;
 }
 
@@ -463,8 +468,6 @@ h2 {
 }
 
 .ikona {
-  width: 170px;
-  height: 92px;
   fill: #afb1b8;
   outline: 1px auto #afb1b8;
 }
@@ -476,14 +479,16 @@ h2 {
 
 .main-ikon-smartphone {
   fill: currentColor;
-
+  vertical-align: center;
   padding: 0px;
+  margin-right: 10px;
 }
 
 .main-ikon-envelope {
   fill: currentColor;
-
+  vertical-align: center;
   padding: 0px;
+  margin-right: 10px;
 }
 /*
 .main-ikon-envelope:hover{
@@ -491,8 +496,6 @@ h2 {
 }*/
 
 .icon-lorem {
-  width: 270px;
-  height: 120px;
   outline: 1px dashed #f5f4fa;
   background-color: #f5f4fa;
   padding-bottom: 25px;
